@@ -1,18 +1,5 @@
 /*
-
-	File name    : 
-	LastEditors  : H
-	LastEditTime : 2021-10-29 19:33:47
-	Last Version : 1.0
-	Description  : 
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-10-29 19:33:45
-	FilePath     : \MIPS_Single_Cycle\ALU_Control_Unit.v
-	Copyright 2021 H, All Rights Reserved. 
-
+    This module sets up the ALU Control input
 */
 module ALU_Control_Unit(
     // System Clock
@@ -22,7 +9,8 @@ module ALU_Control_Unit(
     input       [1:0]   ALUOp,
     output  reg [2:0]   ALUControl
 );
-
+    //This uses the ALUOp to set up the control that will be used.
+    //The control will then dictate which operation the ALU will preform
     always @(*) begin
         case (ALUOp)
             2'b00: ALUControl = 3'b010;

@@ -1,18 +1,7 @@
 /*
-
-	File name    : 
-	LastEditors  : H
-	LastEditTime : 2021-10-28 21:36:58
-	Last Version : 1.0
-	Description  : 
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-10-28 21:36:57
-	FilePath     : \MIPS_Single\PC_Counter.v
-	Copyright 2021 H, All Rights Reserved. 
-
+    This will be the first module instatiated by the MIPS_SINGLE_CYCLE.v
+    This file is responsible for our program counter. It is essential for a processor to run.
+    It is used to keep track of where the program is and where it needs to go next.
 */
 module PC_Counter(
     // System Clock

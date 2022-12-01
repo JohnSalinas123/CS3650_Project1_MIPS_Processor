@@ -1,18 +1,5 @@
 /*
-
-	File name    : 
-	LastEditors  : H
-	LastEditTime : 2021-10-28 16:37:57
-	Last Version : 1.0
-	Description  : 
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-10-28 16:37:55
-	FilePath     : \MIPS_Single\Reg_File.v
-	Copyright 2021 H, All Rights Reserved. 
-
+    
 */
 module Reg_File (
     input               clk,

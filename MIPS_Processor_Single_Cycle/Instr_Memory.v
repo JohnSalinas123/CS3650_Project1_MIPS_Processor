@@ -1,18 +1,6 @@
 /*
-
-	File name    : 
-	LastEditors  : H
-	LastEditTime : 2021-10-28 17:30:57
-	Last Version : 1.0
-	Description  : 
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-10-28 17:30:54
-	FilePath     : \MIPS_Single\Instr_Memory.v
-	Copyright 2021 H, All Rights Reserved. 
-
+	This is the second module ran. It reads the the memfile.data
+	The instructions are stored for the program to use.
 */
 module Instr_Memory(
     // System Clock
@@ -26,6 +14,7 @@ module Instr_Memory(
 	initial begin
 		$readmemh("./memfile.dat",Instr_Reg,0,71);
 	end
+	// This is the important part here, it sets up our instruction like so: [op(6bit) rs(5bit) rd(5bit) imm(16bit)]
     assign RD = {{Instr_Reg[A]},{Instr_Reg[A+32'd1]},{Instr_Reg[A+32'd2]},{Instr_Reg[A+32'd3]}};
 
 endmodule

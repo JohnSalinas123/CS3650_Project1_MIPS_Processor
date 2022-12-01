@@ -1,18 +1,5 @@
 /*
-
-	File name    : 
-	LastEditors  : H
-	LastEditTime : 2021-10-28 16:44:49
-	Last Version : 1.0
-	Description  : 
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-10-28 16:44:48
-	FilePath     : \MIPS_Single\ALU.v
-	Copyright 2021 H, All Rights Reserved. 
-
+    This module is arithmatic logic unit, it preforms the mathematical operations that need preformed.
 */
 module ALU(
     // System Clock
@@ -25,6 +12,7 @@ module ALU(
     output              Zero
 );
 
+    //The operation preform is based on the ALUControl module. This will return a result of the arithmetic
     always @(*) begin
         case (ALUControl)
             3'b010 : begin

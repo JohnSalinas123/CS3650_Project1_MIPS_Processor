@@ -1,18 +1,6 @@
 /*
-
-	File name    : 
-	LastEditors  : H
-	LastEditTime : 2021-10-28 20:59:03
-	Last Version : 1.0
-	Description  : 
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-10-28 20:59:02
-	FilePath     : \MIPS_Single\Control_Unit.v
-	Copyright 2021 H, All Rights Reserved. 
-
+    This is the third module needed for the program.
+    It will set up our Opcode portion of our current instruction
 */
 module Control_Unit(
     // System Clock
@@ -46,11 +34,11 @@ always @(*) begin
         // beq Instruction
         6'b000100 : begin
             RegWrite = 1'b0;
-            RegDst   = 1'b0;    // dont care
+            RegDst   = 1'b0;
             ALUSrc   = 1'b0;
             Branch   = 1'b1;    
             MemWrite = 1'b0;
-            MemtoReg = 1'b0;    // dont care
+            MemtoReg = 1'b0;
             ALUOp    = 2'b01;
             Jump     = 1'b0;
         end
