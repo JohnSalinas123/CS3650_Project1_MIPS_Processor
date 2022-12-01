@@ -2,9 +2,6 @@
     This module sets up the ALU Control input
 */
 module ALU_Control_Unit(
-    // System Clock
-
-    // User Interface
     input       [5:0]   Funct,
     input       [1:0]   ALUOp,
     output  reg [2:0]   ALUControl

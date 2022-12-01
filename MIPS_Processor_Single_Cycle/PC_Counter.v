@@ -4,11 +4,9 @@
     It is used to keep track of where the program is and where it needs to go next.
 */
 module PC_Counter(
-    // System Clock
     input        clk,
     input        rst_n,
 
-    // User Interface
     input                   PCSrc,
     input                   Jump,
     input           [31:0]  SignImm,

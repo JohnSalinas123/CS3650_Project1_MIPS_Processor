@@ -3,11 +3,8 @@
 	The instructions are stored for the program to use.
 */
 module Instr_Memory(
-    // System Clock
     input   [31:0]  A,
     output  [31:0]  RD
-
-    // User Interface
     
 );
 	reg [7:0] Instr_Reg [71:0];

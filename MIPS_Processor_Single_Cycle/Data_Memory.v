@@ -2,11 +2,9 @@
     This module is used for writing data to the MEM_DATA.txt file
 */
 module Data_Memory(
-    // System Clock
     input        clk,
     input        rst_n,
 
-    // User Interface
     input           [31:0]  A,
     input           [31:0]  WD,
     input                   WE,

@@ -3,9 +3,6 @@
 	It will pad 16 bits.
 */
 module Imm_Sign_Extend(
-    // System Clock
-
-    // User Interface
     input       [15:0]  Immediate,
 
     output      [31:0]  SignImm

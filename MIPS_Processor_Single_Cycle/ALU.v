@@ -2,9 +2,6 @@
     This module is arithmatic logic unit, it preforms the mathematical operations that need preformed.
 */
 module ALU(
-    // System Clock
-
-    // User Interface
     input       [31:0]  SrcA,
     input       [31:0]  SrcB,
     input       [2:0]   ALUControl,

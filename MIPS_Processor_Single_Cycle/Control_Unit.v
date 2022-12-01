@@ -3,11 +3,9 @@
     It will set up our Opcode portion of our current instruction
 */
 module Control_Unit(
-    // System Clock
     input        clk,
     input        rst_n,
 
-    // User Interface
     output  reg [1:0]    ALUOp,
     output  reg     MemWrite,RegWrite,
     output  reg     RegDst,
