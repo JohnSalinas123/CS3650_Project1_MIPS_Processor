@@ -1,13 +1,13 @@
 /*
-    This module sets up the ALU Control input
+    This module sets up the ALU control input. It recevied the 2 bit ALUOp from the control unit and outputs various combinations of bits
+    which represent the function the ALU will do.
 */
 module ALU_Control_Unit(
     input       [5:0]   Funct,
     input       [1:0]   ALUOp,
     output  reg [2:0]   ALUControl
 );
-    //This uses the ALUOp to set up the control that will be used.
-    //The control will then dictate which operation the ALU will preform
+
     always @(*) begin
         case (ALUOp)
             2'b00: ALUControl = 3'b010;

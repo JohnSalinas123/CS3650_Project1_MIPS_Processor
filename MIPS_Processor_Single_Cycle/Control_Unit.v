@@ -1,6 +1,7 @@
 /*
     The Control Unit has multiple uses. It can determine the control lines for functional units and multiplexors.
-    It does this by taking in the 6bit OP code and and generating the 2 bit ALUOp as well as other bits needed for the generated control lines
+    It does this by taking in the 6bit OP code and and generating the 2 bit ALUOp as well as other bits needed for the generated control lines.
+    The other bits that are generated depend on the opcode recevied.
 */
 module Control_Unit(
     input        clk,
