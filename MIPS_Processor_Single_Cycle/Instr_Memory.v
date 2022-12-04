@@ -1,5 +1,5 @@
 /*
-	This is the second module ran. It reads the the memfile.data
+	This module is used to read instructions from the memfile
 	The instructions are stored for the program to use.
 */
 module Instr_Memory(
