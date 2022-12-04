@@ -1,5 +1,7 @@
 /*
-    
+    This is the register file where registers are written to or read. The register file always outputs the two read registers,
+    which are specified by the 5 bit input addresses A1 and A2. Depending on the RegWrite signal, the register specified by A3
+    could have the 32-bit input WD3 written to it.
 */
 module Reg_File (
     input               clk,
