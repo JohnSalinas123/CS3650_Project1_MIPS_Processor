@@ -1,6 +1,6 @@
 /*
-    This module sets up the ALU control input. It recevied the 2 bit ALUOp from the control unit and outputs various combinations of bits
-    which represent the function the ALU will do.
+    This module sets up the ALU control input. It intakes the 2 bit ALUOp and the 6bit funct (r-type). It will output a 3bit number.
+    The 3bit number represents the control input for the ALU. The control input determines which operation the ALU preforms.
 */
 module ALU_Control_Unit(
     input       [5:0]   Funct,
