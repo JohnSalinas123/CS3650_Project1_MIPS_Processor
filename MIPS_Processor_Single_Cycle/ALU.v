@@ -1,5 +1,7 @@
 /*
     This module is arithmatic logic unit, it preforms the mathematical operations that need preformed.
+    The ALU takes in two 32bit numbers and a 3bit number. The 3 bit number comes from the ALU control unit
+    and it determines the operation preformed on the 32bit numbers
 */
 module ALU(
     input       [31:0]  SrcA,
@@ -9,7 +11,6 @@ module ALU(
     output              Zero
 );
 
-    //The operation preform is based on the ALUControl module. This will return a result of the arithmetic
     always @(*) begin
         case (ALUControl)
             3'b010 : begin
