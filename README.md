@@ -35,4 +35,4 @@ A data hazard is also invoked when destination register of the current instructi
 ![alt text](http://url/to/img.png)
 
 Single Cycle
-![alt text]([http://url/to/img.png](https://github.com/JohnSalinas123/CS3650_Project1_MIPS_Processor/blob/main/pipeline_image.PNG))
+![alt text](https://github.com/JohnSalinas123/CS3650_Project1_MIPS_Processor/blob/main/pipeline_image.PNG)
