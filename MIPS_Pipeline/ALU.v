@@ -1,3 +1,8 @@
+/*
+    The ALU module for 5SP is slightly different then the SIngle Cycle version. 
+    This version needs to take into considering forwarding. This allowed the ALU to function without
+    needing to wait for the aluControl. It can instead use forwarding to move the process along
+*/
 module ALU(
     input               rst_n,
 

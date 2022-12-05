@@ -1,3 +1,7 @@
+/*
+    The PC counter module is nearly identical to the Single Cycle Implementation
+    The different is we now need to keep track and know when we are jumping or just moving forward in the program
+*/
 module PC_Counter(
     input        clk,
     input        rst_n,

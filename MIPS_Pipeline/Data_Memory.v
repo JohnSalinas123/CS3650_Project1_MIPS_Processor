@@ -1,4 +1,6 @@
-
+/*
+    This module is used for writing data to the MEM_DATA.txt file
+*/
 module Data_Memory(
     input        clk,
     input        rst_n,

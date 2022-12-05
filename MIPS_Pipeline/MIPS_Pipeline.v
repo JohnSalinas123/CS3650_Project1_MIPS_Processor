@@ -1,4 +1,6 @@
-
+/*
+    This is the main driving force of the program. It instatiates the rest of the modules needed for the program
+*/
 module MIPS_Pipeline(
     input           clk,
     input           rst_n

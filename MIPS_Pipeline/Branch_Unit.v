@@ -1,3 +1,7 @@
+/*
+    This module is used to help control branching. Branching is used as a solution to control hazards.
+    This works by stalling and waiting for the branch to finish executing before allowing it to move forward
+*/
 module Branch_Unit(
     input           BranchD,
     input   [31:0]  SignImm,

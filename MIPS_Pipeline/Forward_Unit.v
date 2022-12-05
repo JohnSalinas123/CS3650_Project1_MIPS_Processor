@@ -1,4 +1,7 @@
-
+/*
+    This module is in charge on controlling Forwarding (bypassing). It is used to resolve data hazards.
+    It can retrieve missing data from a buffer instead of waiting for it to populate elsewhere (registers/memory)
+*/
 module Forward_Unit(
     input        rst_n,
 
