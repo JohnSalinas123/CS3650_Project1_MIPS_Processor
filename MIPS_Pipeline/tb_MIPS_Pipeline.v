@@ -1,5 +1,13 @@
+/*
+    CS3650 Project 1 MIPS Single Cycle Processor
+    This is our test bench. It will read machine code in the memfile.dat file.
+    This is the 5 Stage Pipeline implementation
 
-
+    To build/run/view waveforms for this program you can follow these steps:
+    $ iverilog -o MIPS_wave -y ./ tb_MIPS_Pipeline.v
+    $ vvp -n MIPS_wave --lxt2
+    $ gtkwave MIPS_wave.vcd
+*/
 `timescale 1ps/1ps
 module tb_MIPS_Pipeline();
 
