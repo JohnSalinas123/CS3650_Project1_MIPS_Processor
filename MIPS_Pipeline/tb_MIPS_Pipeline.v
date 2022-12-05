@@ -16,8 +16,8 @@ reg [31:0] cnt;
 
 initial
 begin            
-    $dumpfile("MIPS_wave.vcd");        //���ɵ�vcd�ļ�����
-    $dumpvars(0, tb_MIPS_Pipeline);    //tbģ������
+    $dumpfile("MIPS_wave.vcd");
+    $dumpvars(0, tb_MIPS_Pipeline);
 end
 
 initial begin
