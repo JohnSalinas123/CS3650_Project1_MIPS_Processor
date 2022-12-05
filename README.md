@@ -1,10 +1,5 @@
 # CS3650_Project1_MIPS_Processor
-
-Daniel Chittenden
-John Salinas
-Tatsiana Uryeva
-
-
+	Daniel Chittenden John Salinas Tatsiana Uryeva
 	Project 1: Certified Pre Owned Processor
 
 Contributions: We all contributed to the project equally. We got together in discord to study, plan, and work simultaneously. This helped us as we walked through the source code and learned how it worked and exactly what it was doing. We all contributed to the readme and commented/explained the source code.
