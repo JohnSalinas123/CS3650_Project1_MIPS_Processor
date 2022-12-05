@@ -1,4 +1,7 @@
-
+/*
+    This module is used to stall the pipeline if one step needs to wait for another step to be complete.
+    This is needed to prevent "Pipeline Data Hazards"
+*/
 module Stall_Unit(
     input        clk,
     input        rst_n,
