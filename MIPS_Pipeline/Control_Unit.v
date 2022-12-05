@@ -1,19 +1,3 @@
-/*
-
-	File name    : Control_Unit
-	LastEditors  : H
-	LastEditTime : 2021-11-04 21:48:09
-	Last Version : 1.0
-	Description  : According to Opcode Output the Control Signal
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-11-03 21:01:39
-	FilePath     : \MIPS_Pipeline\Control_Unit.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 module Control_Unit(
     // System Clock
     input        rst_n,

@@ -1,19 +1,4 @@
-/*
 
-	File name    : MEM_WB_Register
-	LastEditors  : H
-	LastEditTime : 2021-11-03 21:11:19
-	Last Version : 1.0
-	Description  : Pipeline Stage Register : MEM/WB
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-11-03 21:11:18
-	FilePath     : \MIPS_Pipeline\MEM_WB_Register.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 module MEM_WB_Register(
     // System Clock
     input        clk,

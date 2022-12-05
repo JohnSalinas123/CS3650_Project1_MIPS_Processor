@@ -1,19 +1,4 @@
-/*
 
-	File name    : EX_MEM_Register
-	LastEditors  : H
-	LastEditTime : 2021-11-03 21:09:08
-	Last Version : 1.0
-	Description  : Pipeline Stage Register : EX/MEM
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-11-03 21:09:07
-	FilePath     : \MIPS_Pipeline\EX_MEM_Register.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 module EX_MEM_Register(
     // System Clock
     input        clk,

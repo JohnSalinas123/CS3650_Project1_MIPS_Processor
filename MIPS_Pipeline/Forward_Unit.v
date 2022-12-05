@@ -1,19 +1,4 @@
-/*
 
-	File name    : Forward_Unit
-	LastEditors  : H
-	LastEditTime : 2021-11-04 01:08:44
-	Last Version : 1.0
-	Description  : Handle data hazard (Bypass)
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-11-04 01:08:42
-	FilePath     : \MIPS_Pipeline\Forward_Unit.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 module Forward_Unit(
     // System Clock
     input        rst_n,

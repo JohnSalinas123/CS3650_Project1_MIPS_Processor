@@ -1,19 +1,4 @@
-/*
 
-	File name    : MIPS_Pipeline
-	LastEditors  : H
-	LastEditTime : 2021-10-28 17:29:07
-	Last Version : 1.0
-	Description  : Top level of MIPS 5-Stage Pipeline
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-10-28 17:29:00
-	FilePath     : \MIPS_Pipeline\MIPS_Pipeline.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 module MIPS_Pipeline(
     // System Clock
     input           clk,

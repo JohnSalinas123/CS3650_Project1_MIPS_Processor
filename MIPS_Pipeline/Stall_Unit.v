@@ -1,19 +1,4 @@
-/*
 
-	File name    : Stall_Unit
-	LastEditors  : H
-	LastEditTime : 2021-11-04 03:18:01
-	Last Version : 1.0
-	Description  : Handle Hazard Unit (Using Block/Bubble)
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-11-04 03:18:00
-	FilePath     : \MIPS_Pipeline\Stall_Unit.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 module Stall_Unit(
     // System Clock
     input        clk,

@@ -1,19 +1,3 @@
-/*
-
-	File name    : ALU
-	LastEditors  : H
-	LastEditTime : 2021-10-28 16:44:49
-	Last Version : 1.0
-	Description  : ALU Unit
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-10-28 16:44:48
-	FilePath     : \MIPS_Single\ALU.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 module ALU(
     // System Clock
     input               rst_n,

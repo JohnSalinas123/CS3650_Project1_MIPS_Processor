@@ -1,20 +1,3 @@
-/*
-
-	File name    : Branch_Unit
-	LastEditors  : H
-	LastEditTime : 2021-11-04 06:32:30
-	Last Version : 1.0
-	Description  : Control and Check the Branch, whether jump to the bracnch,
-                    which is run in Decode period.
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-11-04 06:31:28
-	FilePath     : \MIPS_Pipeline\Branch_Unit.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 module Branch_Unit(
     // User Interface
     input           BranchD,

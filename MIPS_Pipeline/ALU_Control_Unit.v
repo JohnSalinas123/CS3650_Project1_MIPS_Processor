@@ -1,20 +1,3 @@
-/*
-
-	File name    : ALU_Control_Unit
-	LastEditors  : H
-	LastEditTime : 2021-11-04 21:33:54
-	Last Version : 1.0
-	Description  : Control the ALU Unit to run specific operation. Output the Signal Alucontrol
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-11-03 21:01:39
-	FilePath     : \MIPS_Pipeline\ALU_Control_Unit.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
-
 module ALU_Control_Unit(
     // System Clock
 

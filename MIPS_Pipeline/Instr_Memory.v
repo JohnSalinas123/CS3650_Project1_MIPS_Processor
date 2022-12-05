@@ -1,19 +1,4 @@
-/*
 
-	File name    : Instr_Memory
-	LastEditors  : H
-	LastEditTime : 2021-11-04 21:51:32
-	Last Version : 1.0
-	Description  : 
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-11-03 21:01:39
-	FilePath     : \MIPS_Pipeline\Instr_Memory.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 
 module Instr_Memory(
     input   [31:0]  A,

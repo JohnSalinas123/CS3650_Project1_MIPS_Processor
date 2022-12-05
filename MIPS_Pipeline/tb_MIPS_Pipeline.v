@@ -1,19 +1,4 @@
-/*
 
-	File name    : tb_MIPS_Pipeline
-	LastEditors  : H
-	LastEditTime : 2021-11-04 21:43:18
-	Last Version : 1.0
-	Description  : testbench of MIPS_Pipeline
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-11-04 21:33:08
-	FilePath     : \MIPS_Pipeline\tb_MIPS_Pipeline.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 
 `timescale 1ps/1ps
 module tb_MIPS_Pipeline();
@@ -23,8 +8,8 @@ reg [31:0] cnt;
 
 initial
 begin            
-    $dumpfile("MIPS_wave.vcd");        //Éú³ÉµÄvcdÎÄ¼þÃû³Æ
-    $dumpvars(0, tb_MIPS_Pipeline);    //tbÄ£¿éÃû³Æ
+    $dumpfile("MIPS_wave.vcd");        //ï¿½ï¿½ï¿½Éµï¿½vcdï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½
+    $dumpvars(0, tb_MIPS_Pipeline);    //tbÄ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 end
 
 initial begin

@@ -1,19 +1,4 @@
-/*
 
-	File name    : ID_EX_Register
-	LastEditors  : H
-	LastEditTime : 2021-11-03 21:05:45
-	Last Version : 1.0
-	Description  : Pipeline Stage Register : ID/EX
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-11-03 21:05:43
-	FilePath     : \MIPS_Pipeline\ID_EX_Register.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 module ID_EX_Register(
     // System Clock
     input        clk,

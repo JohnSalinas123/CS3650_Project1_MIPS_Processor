@@ -1,19 +1,4 @@
-/*
 
-	File name    : IF_ID_Register
-	LastEditors  : H
-	LastEditTime : 2021-11-03 21:02:04
-	Last Version : 1.0
-	Description  : Pipeline Stage Register : IF/ID
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-11-03 21:02:03
-	FilePath     : \MIPS_Pipeline\IF_ID_Register.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 module IF_ID_Register(
     // System Clock
     input        clk,
