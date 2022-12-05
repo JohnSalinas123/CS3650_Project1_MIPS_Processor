@@ -31,8 +31,9 @@ We learned that data paths can change based on the instruction given. For exampl
 In pipelined MIPS processor, a forwarding and stalling units is responsible for solving data hazards. A data hazard is invoked when the source register of the current instruction is the same as the destination register of the previous instruction.When this data hazard is detected the data at the output of the ALU is forwarded to the input of ALU.
 A data hazard is also invoked when destination register of the current instruction is the same as the source register of the next instruction. This data hazard is resolved by stalling unit which delays it one cycle before proceeding. The 5 stages are IF, ID, EX, MEM, WB which are Instruction Fetch, Instruction decode and register file read, Execution or address calculation, Data Memory Access and Write Back. 
 
-5 Stage
-![alt text](http://url/to/img.png)
 
 Single Cycle
+![alt text]((https://github.com/JohnSalinas123/CS3650_Project1_MIPS_Processor/blob/main/Single%20Cycle.png))
+
+5 Stage
 ![alt text](https://github.com/JohnSalinas123/CS3650_Project1_MIPS_Processor/blob/main/pipeline_image.PNG)
