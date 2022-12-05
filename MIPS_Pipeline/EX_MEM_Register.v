@@ -1,10 +1,8 @@
 
 module EX_MEM_Register(
-    // System Clock
     input        clk,
     input        rst_n,
 
-    // User Interface
     input       [31:0]  ALUOut,
     input       [31:0]  WriteDataE,
     input       [4:0]   WriteRegE, 
@@ -25,9 +23,6 @@ module EX_MEM_Register(
     // MEM Signal
     output  reg         MemWriteM
 );
-/*******************************************************************************
- *                                 Main Code
-*******************************************************************************/
 
     always @(posedge clk or negedge rst_n ) begin
         if(!rst_n)begin

@@ -1,6 +1,8 @@
-
+/*
+	This module works the same as the Single Cycle implementation
+*/
 module Imm_Sign_Extend(
-    // User Interface
+
     input       [15:0]  Immediate,
 
     output      [31:0]  SignImm

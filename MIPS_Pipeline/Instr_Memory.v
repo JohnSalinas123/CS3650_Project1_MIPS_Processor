@@ -1,5 +1,6 @@
-
-
+/*
+	This module is the same as the Single Cycle implementation
+*/
 module Instr_Memory(
     input   [31:0]  A,
     output  [31:0]  RD

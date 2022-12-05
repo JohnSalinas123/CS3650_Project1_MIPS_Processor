@@ -1,22 +1,17 @@
 
 module IF_ID_Register(
-    // System Clock
     input        clk,
     input        rst_n,
 
     input               StallD,
     input               PCSrcD,
     input               JumpD,
-    // User Interface
     input       [31:0]  PCPlus4F,
     input       [31:0]  Instr,
 
     output  reg [31:0]  PCPlus4D,
     output  reg [31:0]  InstrD
 );
-/*******************************************************************************
- *                                 Main Code
-*******************************************************************************/
 
     always @(posedge clk ) begin
         if (~rst_n) begin

@@ -1,5 +1,4 @@
 module Branch_Unit(
-    // User Interface
     input           BranchD,
     input   [31:0]  SignImm,
     input   [31:0]  PCPlus4D,
@@ -9,7 +8,6 @@ module Branch_Unit(
     input           ForwardAD,
     input           ForwardBD,
 
-    // jump part
     output  [31:0]  PCBranchD,
     output          PCSrcD
 );

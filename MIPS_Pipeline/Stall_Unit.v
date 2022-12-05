@@ -1,10 +1,8 @@
 
 module Stall_Unit(
-    // System Clock
     input        clk,
     input        rst_n,
 
-    // User Interface
     input   [4:0]   RsD,
     input   [4:0]   RtD,
     input   [4:0]   RtE,
@@ -19,9 +17,6 @@ module Stall_Unit(
     output  reg     StallF
 );
     wire lwstall,branchstall;
-/*******************************************************************************
- *                                 Main Code
-*******************************************************************************/
 
     assign branchstall = (BranchD && RegWriteE && ((WriteRegE == RsD) || (WriteRegE == RtD))) ||
                             (BranchD && MemtoRegM && ((WriteRegM == RsD) || (WriteRegM == RtD)));

@@ -1,10 +1,8 @@
 
 module ID_EX_Register(
-    // System Clock
     input        clk,
     input        rst_n,
 
-    // User Interface
     input       [31:0]  RD1,
     input       [31:0]  RD2,
     input       [4:0]   Rt,
@@ -40,10 +38,6 @@ module ID_EX_Register(
     output  reg         ALUSrcE,
     output  reg [2:0]   ALUControlE
 );
-/*******************************************************************************
- *                                 Main Code
-*******************************************************************************/
-
     always @(posedge clk or negedge rst_n ) begin
         if(!rst_n)begin
             RegWriteE   <=  1'b0;

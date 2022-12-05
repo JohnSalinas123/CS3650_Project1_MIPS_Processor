@@ -1,7 +1,6 @@
 module ALU(
-    // System Clock
     input               rst_n,
-    // User Interface
+
     input       [31:0]  SignImm,
     input       [2:0]   ALUControl,
     input               ALUSrc,
@@ -18,9 +17,6 @@ module ALU(
 );
     wire    [31:0] SrcB;
     reg     [31:0] SrcA;
-/*******************************************************************************
- *                                 Main Code
-*******************************************************************************/
 
     assign  SrcB = ALUSrc ? SignImm : SrcB_Forward;
 

@@ -1,5 +1,6 @@
-
-
+/*
+    This module is the same as the Single Cycle Implementation
+*/
 module Reg_File (
     input               clk,
     input               rst_n,

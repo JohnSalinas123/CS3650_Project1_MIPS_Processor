@@ -1,9 +1,7 @@
 
 module Forward_Unit(
-    // System Clock
     input        rst_n,
 
-    // User Interface
     input       [4:0]   RsE,
     input       [4:0]   RtE,
     input       [4:0]   RsD,
@@ -18,10 +16,6 @@ module Forward_Unit(
     output  reg         ForwardAD,
     output  reg         ForwardBD
 );
-/*******************************************************************************
- *                                 Main Code
-*******************************************************************************/
-
     always @(*) begin
         if (~rst_n) begin
             ForwardAE = 2'b00;

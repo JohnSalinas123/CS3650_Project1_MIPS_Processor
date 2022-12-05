@@ -1,6 +1,5 @@
 
 module MIPS_Pipeline(
-    // System Clock
     input           clk,
     input           rst_n
 );

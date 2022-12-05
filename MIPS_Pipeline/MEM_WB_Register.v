@@ -1,10 +1,8 @@
 
 module MEM_WB_Register(
-    // System Clock
     input        clk,
     input        rst_n,
 
-    // User Interface
     input       [31:0]  ReadDataM,
     input       [31:0]  ALUOutM,
     input       [4:0]   WriteRegM, 
@@ -20,9 +18,6 @@ module MEM_WB_Register(
     output  reg         RegWriteW,
     output  reg         MemtoRegW
 );
-/*******************************************************************************
- *                                 Main Code
-*******************************************************************************/
 
     always @(posedge clk or negedge rst_n) begin
         if(!rst_n)begin
