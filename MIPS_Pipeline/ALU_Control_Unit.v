@@ -1,14 +1,12 @@
+/*
+    This module sets up the ALU control input. It works the same as the Single Cycle Implementation
+*/
 module ALU_Control_Unit(
-    // System Clock
 
-    // User Interface
     input       [5:0]   Funct,
     input       [1:0]   ALUOp,
     output  reg [2:0]   ALUControl
 );
-/*******************************************************************************
- *                                 Main Code
-*******************************************************************************/
 
     always @(*) begin
         case (ALUOp)

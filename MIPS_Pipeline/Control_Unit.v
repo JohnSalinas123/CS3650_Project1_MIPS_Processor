@@ -1,7 +1,11 @@
+/*
+    The Control Unit has multiple uses. It can determine the control lines for functional units and multiplexors.
+    The control unit is slightly different then the Single Cycle version, this has a default case that sets all bits to 0
+    If no opcode is provided
+*/
 module Control_Unit(
-    // System Clock
     input        rst_n,
-    // User Interface
+
     output  reg [1:0]    ALUOp,
     output  reg     MemWrite,RegWrite,
     output  reg     RegDst,
@@ -11,9 +15,6 @@ module Control_Unit(
     output  reg     Jump,
     input   [5:0]   Opcode
 );
-/*******************************************************************************
- *                                 Main Code
-*******************************************************************************/
 
 always @(*) begin
     if (rst_n) begin
@@ -41,11 +42,11 @@ always @(*) begin
         // beq Instruction
         6'b000100 : begin
             RegWrite = 1'b0;
-            RegDst   = 1'b0;    // dont care
+            RegDst   = 1'b0;
             ALUSrc   = 1'b0;
             Branch   = 1'b1;    
             MemWrite = 1'b0;
-            MemtoReg = 1'b0;    // dont care
+            MemtoReg = 1'b0;
             ALUOp    = 2'b01;
             Jump     = 1'b0;
         end
