@@ -1,19 +1,3 @@
-/*
-
-	File name    : PC_Counter
-	LastEditors  : H
-	LastEditTime : 2021-11-04 21:42:50
-	Last Version : 1.0
-	Description  : Programm Instrcutions Counter
-	
-	----------------------------------------------------------------------------------------
-	
-	Author       : H
-	Date         : 2021-11-03 21:01:39
-	FilePath     : \MIPS_Pipeline\PC_Counter.v
-	Copyright 2021 H, All Rights Reserved. 
-
-*/
 module PC_Counter(
     // System Clock
     input        clk,
