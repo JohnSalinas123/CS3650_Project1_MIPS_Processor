@@ -32,7 +32,7 @@ In pipelined MIPS processor, a forwarding and stalling units is responsible for 
 A data hazard is also invoked when destination register of the current instruction is the same as the source register of the next instruction. This data hazard is resolved by stalling unit which delays it one cycle before proceeding. The 5 stages are IF, ID, EX, MEM, WB which are Instruction Fetch, Instruction decode and register file read, Execution or address calculation, Data Memory Access and Write Back. 
 
 5 Stage
-![Screenshot](pipeline_image.png)
+![alt text](http://url/to/img.png)
 
 Single Cycle
-![Screenshot](Single Cycle.png)
+![alt text]([http://url/to/img.png](https://github.com/JohnSalinas123/CS3650_Project1_MIPS_Processor/blob/main/pipeline_image.PNG))
