@@ -1,4 +1,6 @@
-
+/*
+    This module works as the Instruction Decode and Register File Read and Execution or Address Calcuation stage.
+*/
 module ID_EX_Register(
     input        clk,
     input        rst_n,

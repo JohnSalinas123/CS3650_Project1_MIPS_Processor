@@ -1,4 +1,6 @@
-
+/*
+    This module works as the Instruction Fetch and Instruction Decode & Register File Read stage.
+*/
 module IF_ID_Register(
     input        clk,
     input        rst_n,

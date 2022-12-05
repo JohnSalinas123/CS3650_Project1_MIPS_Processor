@@ -1,4 +1,6 @@
-
+/*
+    This module works as the Data Memory Access Stage and Write Back Stage
+*/
 module MEM_WB_Register(
     input        clk,
     input        rst_n,

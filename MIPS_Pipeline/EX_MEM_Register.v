@@ -1,4 +1,6 @@
-
+/*
+    This module works as the Execution or Address Calcuation and Data Memory Access Stage
+*/
 module EX_MEM_Register(
     input        clk,
     input        rst_n,
